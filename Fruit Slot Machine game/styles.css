@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+html{
+    background: url('giphy-3381260594.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'charissil-b';
+    src: url('charissil-b.woff2') format('woff2'),
+         url('charissil-b.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+  
+.container {
+    text-align: center;
+    background-color: transparent;
+    width: 700px;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-bottom: 8px;
+}
+  
+h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px #000;
+    font-family: 'charissil-b', cursive;
+    font-weight: 500;
+    color: gold;
+
+}
+  
+.slot-machine {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+  
+.slot {
+    background-color: #e74c3c;
+    border: 5px ridge gold;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+  
+.slot .value {
+    font-size: 4em;
+}
+  
+button {
+    background-color: #27ae60;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+  
+button:hover {
+    background-color: #2ecc71;
+}
+  
+#result {
+    margin-top: 20px;
+    font-size: 2.5em;
+    text-shadow: 1px 1px #000;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 1.5rem;
+}
+  
+.img-1{
+    border-radius: 15px;
+    width: 400px;
+}
+
+header{
+    color: white;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Pacifico", cursive;
+    color: red;
+    text-shadow:2px 2px 4px blue;
+    background-color: transparent;
+    padding: 1rem;
+
+}

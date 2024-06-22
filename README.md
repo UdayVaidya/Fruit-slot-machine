@@ -30,6 +30,12 @@ The CSS file contains styles for the slot machine, including layout, fonts, colo
 JavaScript (script.js)
 The JavaScript file contains the logic for generating random fruit combinations and determining the result.
 
+# Here's Demo
+
+
+https://github.com/UdayVaidya/Fruit-slot-machine/assets/105291488/15e5ab64-3a43-4a39-9509-29d5bdf0c73a
+
+
 # License
 This project is open-source and available under the MIT License.
 
